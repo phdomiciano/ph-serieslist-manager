@@ -8,11 +8,9 @@ Install the package through [Composer](http://getcomposer.org/).
 
 Run the Composer require command from the Terminal:
 
-    composer require xxxxx
+    composer create-project phdomiciano/serieslistlaravel
 
-Update the configs and requiries, run the command from the Terminal:
-
-	composer update
+Run your php server and access the url from project in a web browser.
 
 <br />
 

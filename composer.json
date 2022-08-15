@@ -1,5 +1,5 @@
 {
-    "name": "phdomiciano/serieslist-laravel",
+    "name": "phdomiciano/serieslistlaravel",
     "type": "project",
     "description": "This is a simple CRUD of manager series list with Laravel.",
     "keywords": ["framework", "laravel"],
