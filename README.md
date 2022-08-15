@@ -20,13 +20,19 @@ If necessary update your requiries:
 
     composer update
 
+    composer dump-autoload
+
 Run your php server and access the url from project in a web browser.
 
-## Requirements
+## Possible problem in installation
 
-- PHP ^8.1
-- Composer
-- Laravel
+If you get a 505 error when accessing an application for the first time, run:
+
+    copy .env.example .env
+
+    php artisan key:generate
+
+Now go up the server again.
 
 <br />
 
