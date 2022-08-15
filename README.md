@@ -30,15 +30,22 @@ Create the database tables, run on Terminal:
 
     php artisan migrate
 
-Run your php server and access the url from project in a web browser.
+Run on Terminal your php server and access the url from project in a web browser.
 
-## Possible problem in installation
+    php artisan serve
 
-If you get a 505 error when accessing an application for the first time, run:
+## Possibles problems in installation
+
+*If you get a 505 error when accessing an application for the first time, run:
 
     php artisan key:generate
 
-If you get a error like "\bootstrap\cache directory must be present and writable", just delete the folder "cache" and create again a new folder empty
+*If you get a error like "\bootstrap\cache directory must be present and writable", just delete the folder "cache" and create again a new folder empty
+
+*IF you get a error like "could not find driver (SQL:" when you try run the migrate on Terminal, remember confirm you config in ".env" file.
+** If you use sqlite the conection is just:
+
+    DB_CONNECTION=sqlite
 
 Now go up the server again.
 
