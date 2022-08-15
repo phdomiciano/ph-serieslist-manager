@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "phdomiciano/serieslist-laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "This is a simple CRUD of manager series list with Laravel.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
