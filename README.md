@@ -16,11 +16,19 @@ Run the Composer require command from the Terminal:
 
     composer create-project phdomiciano/serieslistlaravel
 
-If necessary update your requiries:
+If necessary update your requiries, run on Terminal:
 
     composer update
 
     composer dump-autoload
+
+Create a file sqlite in folder "database":
+
+    database/database.sqlite
+
+Create the database tables, run on Terminal:
+
+    php artisan migrate
 
 Run your php server and access the url from project in a web browser.
 
