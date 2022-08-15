@@ -2,6 +2,12 @@
 
 This is a simple CRUD of manager series list with Laravel.
 
+## Requirements
+
+- PHP ^8.1
+- Composer
+- Laravel ^9
+
 ## Installation
 
 Install the package through [Composer](http://getcomposer.org/). 
@@ -10,7 +16,17 @@ Run the Composer require command from the Terminal:
 
     composer create-project phdomiciano/serieslistlaravel
 
+If necessary update your requiries:
+
+    composer update
+
 Run your php server and access the url from project in a web browser.
+
+## Requirements
+
+- PHP ^8.1
+- Composer
+- Laravel
 
 <br />
 
