@@ -22,7 +22,7 @@ If necessary update your requiries, run on Terminal:
 
     composer dump-autoload
 
-Create a file sqlite in folder "database":
+Create a file sqlite in folder "database" or other DB you wish (For others, configure ".env" file):
 
     database/database.sqlite
 
@@ -36,9 +36,9 @@ Run your php server and access the url from project in a web browser.
 
 If you get a 505 error when accessing an application for the first time, run:
 
-    copy .env.example .env
-
     php artisan key:generate
+
+If you get a error like "\bootstrap\cache directory must be present and writable", just delete the folder "cache" and create again a new folder empty
 
 Now go up the server again.
 
