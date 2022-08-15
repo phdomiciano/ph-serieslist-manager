@@ -16,15 +16,15 @@ Run the Composer require command from the Terminal:
 
     composer create-project phdomiciano/serieslistlaravel
 
+Create a file sqlite in folder "database" or other DB you wish (For others, configure ".env" file):
+
+    database/database.sqlite
+
 If necessary update your requiries, run on Terminal:
 
     composer update
 
     composer dump-autoload
-
-Create a file sqlite in folder "database" or other DB you wish (For others, configure ".env" file):
-
-    database/database.sqlite
 
 Create the database tables, run on Terminal:
 
